@@ -114,5 +114,6 @@ thead th2{
     display: none;
     overflow: hidden;
   }
-
-  
+body{
+  background-color: #64CCC5;
+  }
