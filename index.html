@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MSIT Connect</title>
+  <!-- Link Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="shortcut icon" href="./icon.png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo_details">
+      <!-- <i class="bx bxl-audible icon"></i> -->
+      <div class="logo_name"><img src="./logo hkthn.png" alt="MSIT Connect" height="50px" width="110px" style="margin: 20px;"></div>
+      <i class="bx bx-menu" id="btn"></i>
+    </div> 
+    <ul class="nav-list">
+      <li>
+        <a href="#">
+          <i class="bx bx-grid-alt"></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        <span class="tooltip">Dashboard</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-user"></i>
+          <span class="link_name">User</span>
+        </a>
+        <span class="tooltip">User</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-chat"></i>
+          <span class="link_name">Message </span>
+        </a>
+        <span class="tooltip">Message</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-pie-chart-alt-2"></i>
+          <span class="link_name">Analytics</span>
+        </a>
+        <span class="tooltip">Analytics</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-folder"></i>
+          <span class="link_name">File Manger</span>
+        </a>
+        <span class="tooltip">File Manger</span>
+      </li>
+      <!-- <li>
+        <a href="#">
+          <i class="bx bx-cart-alt"></i>
+          <span class="link_name">Order</span>
+        </a>
+        <span class="tooltip">Order</span>
+      </li> -->
+      <li>
+        <a href="#">
+          <i class="bx bx-cog"></i>
+          <span class="link_name">Settings</span>
+        </a>
+        <span class="tooltip">Settings</span>
+      </li>
+      <li class="profile">
+        <div class="profile_details">
+          <img src="profile.jpeg" alt="profile image">
+          <div class="profile_content">
+            <div class="name">Anna Jhon</div>
+            <div class="designation">Admin</div>
+          </div>
+        </div>
+        <i class="bx bx-log-out" id="log_out"></i>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Dashboard</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <h1 style="margin: 1.4rem;">Attendance</h1>
+    
+    <!-- attendance  -->
+<div class="subjects  Subs6">
+    <div class="eg">
+        <span class="material-icons-sharp">architecture</span>
+        <h3>Engineering Graphics</h3>
+        <h2></h2>
+        <div class="progress">
+            <svg><circle cx="38" cy="38" r="36"></circle></svg>
+            <div class="number"><p>86%</p></div>
+        </div>
+        <!-- <button></button> -->
+    </div>
+    <div class="mth">
+        <span class="material-icons-sharp">functions</span>
+        <h3>Applied Mathematics</h3>
+        <h2></h2>
+        <div class="progress">
+            <svg><circle cx="38" cy="38" r="36"></circle></svg>
+            <div class="number"><p>93%</p></div>
+        </div>
+    </div>
+    <div class="cs">
+        <span class="material-icons-sharp">computer</span>
+        <h3>Computer Architecture</h3>
+        <h2></h2>
+        <div class="progress">
+            <svg><circle cx="38" cy="38" r="36"></circle></svg>
+            <div class="number"><p>81%</p></div>
+        </div>
+    </div>
+    <div class="cg">
+        <span class="material-icons-sharp">dns</span>
+        <h3>Database Management</h3>
+        <h2></h2>
+        <div class="progress">
+            <svg><circle cx="38" cy="38" r="36"></circle></svg>
+            <div class="number"><p>96%</p></div>
+        </div>
+    </div>
+    <div class="net">
+        <span class="material-icons-sharp">router</span>
+        <h3>Network Security</h3>
+        <h2></h2>
+        <div class="progress">
+            <svg><circle cx="38" cy="38" r="36"></circle></svg>
+            <div class="number"><p>92%</p></div>
+        </div>
+        button
+    </div>
+  </div>
+  <!-- cards 
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+  
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card" aria-hidden="true">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title placeholder-glow">
+        <span class="placeholder col-6"></span>
+      </h5>
+      <p class="card-text placeholder-glow">
+        <span class="placeholder col-7"></span>
+        <span class="placeholder col-4"></span>
+        <span class="placeholder col-4"></span>
+        <span class="placeholder col-6"></span>
+        <span class="placeholder col-8"></span>
+      </p>
+      <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+    </div>
+  </div> -->
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
