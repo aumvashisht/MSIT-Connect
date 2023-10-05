@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 :root{
-  /* --color-default:#004f83;*/
   --color-second:#383838;
   --color-white:#fff;
-  --color-body:#e4e9f7;
+  --color-body:#fbfbfc;
   --color-light:#e0e0e0;
 }
 
@@ -25,7 +24,7 @@ body{
   width: 78px;
   padding: 6px 14px;
   z-index: 99;
-  background-color: #383838;
+  background-color: #04364A;
   transition: all .5s ease;
   position: fixed;
   top:0;
@@ -282,7 +281,7 @@ body{
 
 .home-section{
   position: relative;
-  background-color: var(--color-body);
+  background-color: #64CCC5;
   min-height: 100vh;
   top:0;
   left:78px;
@@ -306,7 +305,6 @@ body{
 ul.nav-list{
   padding-left: 0;
 }
-
 .Subs6{
     display: inline-flex;
 }
@@ -322,12 +320,13 @@ section .subjects{
 }
 
 section .subjects > div{
-  background-color: var(--color-white);
+  background-color: #DAFFFB;
   padding: var(--card-padding);
   border-radius: var(--card-border-radius);
   margin-top: 1rem;
   box-shadow: var(--box-shadow);
   transition: all 300ms ease;
+  border-radius: 15px;
 }
 section .subjects > div:hover{
   box-shadow: none;
@@ -336,7 +335,7 @@ section .subjects > div span{
   background-color: var(--color-primary);
   padding: .5rem;
   border-radius: 50%;
-  color: var(--color-white);
+  color: #000;
   font-size: 1.5rem;
 }
 section .subjects > div.mth span,section .subjects > div.cg span{background: var(--color-danger);}
@@ -362,7 +361,7 @@ section .subjects .progress{
 section .subjects svg circle{
   fill: none;
   stroke: var(--color-primary);
-  stroke-width: 8;
+  stroke-width: 10px;
   stroke-linecap: round;
   transform: translate(5px, 5px);
   stroke-dasharray: 110;
@@ -407,6 +406,11 @@ section .subjects small{
   margin: 0%;
 }
 #assign{
+  margin: 1rem;
+  margin-top: 3rem;
+  padding: 0;
+}
+section .exm{
   margin: 1rem;
   margin-top: 3rem;
   padding: 0;
